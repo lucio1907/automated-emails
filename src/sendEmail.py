@@ -16,7 +16,7 @@ connection = get_connection()
 
 email_sender = os.environ.get('EMAIL_SENDER')
 email_password = os.environ.get('EMAIL_PASSWORD')
-cv_path = "E:\PythonProjects\mailAutomate\CV-LucioGastellu.pdf"
+cv_path = "E:/PythonProjects/automatedEmails/CV-LucioGastellu.pdf"
 
 def get_all_recruiters(table: str): 
     with connection:
